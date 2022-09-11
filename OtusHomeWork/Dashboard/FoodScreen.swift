@@ -15,25 +15,19 @@ struct FoodScreen: View {
     
     var body: some View {
         VStack {
-//            NavigationLink("lol") {
-//
-//            }
             Text(title)
                 .font(.system(size: 350))
             
-            Text("Back")
-                .font(.largeTitle)
-                .padding()
-                .background(.brown)
-                .onTapGesture {
-                    presentationMode.wrappedValue.dismiss()
-                }
-            Spacer()
+//            Text("Back")
+//                .font(.largeTitle)
+//                .padding()
+//                .background(.brown)
+//                .onTapGesture {
+//                    presentationMode.wrappedValue.dismiss()
+//                }
+//            Spacer()
         }
         .frame(height: 500)
-//        .navigationBarHidden(true)
-//        .navigationBarBackButtonHidden(true)
-//        .navigationTitle(title)
     }
 }
 

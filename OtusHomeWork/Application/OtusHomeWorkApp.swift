@@ -2,7 +2,7 @@
 //  OtusHomeWorkApp.swift
 //  OtusHomeWork
 //
-//  Created by admin on 03.09.2022.
+//  Created by Andrey Samchenko on 03.09.2022.
 //
 
 import SwiftUI
